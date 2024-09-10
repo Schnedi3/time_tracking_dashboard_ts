@@ -1,0 +1,50 @@
+/*
+==========
+FONTS
+=========
+*/
+@font-face {
+  font-family: Poppins;
+  src: url(../assets/Poppins.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(../assets/Raleway.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(../assets/Rubik.ttf) format(truetype);
+}
+
+/* GLOBALS */
+:root {
+- Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%)
+
+- Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.app {
+  font-family: Rubik;
+}
