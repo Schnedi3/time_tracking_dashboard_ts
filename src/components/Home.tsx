@@ -23,9 +23,12 @@ export const Home = () => {
       <article className="header">
         <div className="header_info">
           <img src={Avatar} alt="" />
-          <p>Report for</p>
-          <h1>Jeremy Robson</h1>
+          <div>
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
         </div>
+        <figure></figure>
         <ul>
           {timeFrame.map((frame) => (
             <li

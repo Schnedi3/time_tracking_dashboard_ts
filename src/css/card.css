@@ -2,7 +2,6 @@
 .card {
   display: flex;
   border-radius: 1rem 1rem 2rem 2rem;
-  aspect-ratio: 1 / 1;
   transition: 0.3s;
 }
 
@@ -51,7 +50,7 @@
 .card > article {
   width: 100%;
   height: 80%;
-  padding: 2rem;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,7 +74,7 @@
 }
 
 .card_header > img {
-  width: 1.5rem;
+  width: 1.3rem;
 }
 
 .card_time {
@@ -103,5 +102,22 @@
 
   .card:hover > article {
     filter: brightness(150%);
+  }
+}
+
+/* ADAPTIVE */
+@media (max-width: 800px) {
+  .card > article {
+    gap: 1rem;
+  }
+
+  .card_time {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card_time > h3 {
+    font-size: 2.8rem;
   }
 }

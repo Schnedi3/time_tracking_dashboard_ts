@@ -8,18 +8,16 @@
 :root {
   --blue: #5847eb;
   --white: #f8f8f8;
-
+  --very-dark-blue: #0f1424;
+  --dark-blue: #1c1f4a;
+  --desaturated-blue: #6f76c8;
+  --pale-blue: #bdc1ff;
   --bg-work: #ff8c66;
   --bg-play: #56c2e6;
   --bg-study: #ff5c7c;
   --bg-exercise: #4acf81;
   --bg-social: #7536d3;
   --bg-care: #f1c65b;
-
-  --very-dark-blue: #0f1424;
-  --dark-blue: #1c1f4a;
-  --desaturated-blue: #6f76c8;
-  --pale-blue: #bdc1ff;
 }
 
 * {
@@ -34,12 +32,13 @@ body {
 
 .app {
   width: 90%;
-  max-width: 1200px;
-  height: 100vh;
+  max-width: 1100px;
+  min-height: 100vh;
   margin: auto;
   overflow: hidden;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Rubik;
   font-weight: 300;
   color: var(--white);
@@ -56,5 +55,12 @@ body {
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+/* ADAPTIVE */
+@media (max-width: 1000px) {
+  .app {
+    margin: 4rem auto;
   }
 }
