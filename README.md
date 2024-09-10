@@ -7,8 +7,9 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - Switch between viewing Daily, Weekly, and Monthly stats
 
 ## Screenshots
-<!-- <img src="./screenshots/desktop-design.jpg">
-<img src="./screenshots/mobile-design.jpg"> -->
+<img src="./screenshots/desktop_design.jpg">
+<img src="./screenshots/tablet_design.jpg">
+<img src="./screenshots/mobile_design.jpg">
 
 ## Built with
 - React
