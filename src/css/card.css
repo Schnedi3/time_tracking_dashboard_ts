@@ -8,26 +8,44 @@
 
 .bg-work {
   background-color: var(--bg-work);
+  background-image: url(../assets/images/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position: 90% -5%;
 }
 
 .bg-play {
   background-color: var(--bg-play);
+  background-image: url(../assets/images/icon-play.svg);
+  background-repeat: no-repeat;
+  background-position: 90% -5%;
 }
 
 .bg-study {
   background-color: var(--bg-study);
+  background-image: url(../assets/images/icon-study.svg);
+  background-repeat: no-repeat;
+  background-position: 90% -5%;
 }
 
 .bg-exercise {
   background-color: var(--bg-exercise);
+  background-image: url(../assets/images/icon-exercise.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0%;
 }
 
 .bg-social {
   background-color: var(--bg-social);
+  background-image: url(../assets/images/icon-social.svg);
+  background-repeat: no-repeat;
+  background-position: 90% -5%;
 }
 
 .bg-care {
   background-color: var(--bg-care);
+  background-image: url(../assets/images/icon-self-care.svg);
+  background-repeat: no-repeat;
+  background-position: 90% -5%;
 }
 
 .card > article {
